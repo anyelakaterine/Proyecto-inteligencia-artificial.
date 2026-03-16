@@ -3,7 +3,7 @@
 
 **Estudiante:** Anyela Katerine Renteria Cuama  
 
----
+
 
 # 1. Introducción
 
@@ -19,7 +19,7 @@ Primero se presenta la investigación teórica de cada concepto y posteriormente
 
 El objetivo principal de este proyecto es comprender cómo estos métodos pueden aplicarse en distintos contextos como navegación, videojuegos, economía y sistemas inteligentes.
 
----
+
 
 # 2. Algoritmo A*
 
@@ -37,7 +37,7 @@ Entre sus aplicaciones se encuentran:
 - Sistemas de planificación automática  
 - Inteligencia artificial en juegos  
 
----
+
 
 ## 2.2 Funcionamiento del algoritmo
 
@@ -49,7 +49,7 @@ Para lograr esto utiliza tres funciones principales:
 - $h(n)$ → estimación del costo desde el nodo actual hasta el objetivo  
 - $f(n)$ → costo total estimado del camino  
 
----
+
 
 ## 2.3 Fórmula del algoritmo
 
@@ -65,7 +65,7 @@ donde:
 - $h(n)$ representa la heurística o estimación del costo restante  
 - $f(n)$ representa el costo total estimado  
 
----
+
 
 ## 2.4 Ejemplo conceptual
 
@@ -75,7 +75,7 @@ El algoritmo A* debe encontrar la ruta más corta entre la ciudad **A** y la ciu
 
 Para lograrlo, analiza los costos entre ciudades y utiliza una heurística que estima la distancia restante al destino.
 
----
+
 
 # 3. Heurísticas
 
@@ -85,7 +85,7 @@ Una heurística es una función utilizada para estimar el costo o distancia entr
 
 Las heurísticas ayudan a mejorar la eficiencia de los algoritmos de búsqueda, ya que permiten dirigir la exploración hacia las rutas más prometedoras.
 
----
+
 
 ## 3.2 ¿Para qué sirven?
 
@@ -96,7 +96,7 @@ Las heurísticas permiten:
 - Mejorar el rendimiento computacional  
 - Encontrar soluciones más eficientes  
 
----
+
 
 ## 3.3 Ejemplos de heurísticas
 
@@ -108,7 +108,7 @@ $$
 
 Se utiliza principalmente en mapas tipo cuadrícula.
 
----
+
 
 ### 3.3.2 Distancia Euclidiana
 
@@ -118,7 +118,7 @@ $$
 
 Esta heurística calcula la distancia directa entre dos puntos.
 
----
+
 
 # 4. Teoría de Juegos
 
@@ -128,7 +128,7 @@ La teoría de juegos es una rama de las matemáticas y la economía que estudia 
 
 En estos escenarios, las decisiones de un jugador afectan directamente los resultados de los demás.
 
----
+
 
 ## 4.2 ¿Para qué sirve?
 
@@ -140,7 +140,7 @@ La teoría de juegos se utiliza en áreas como:
 - Estrategia empresarial  
 - Biología evolutiva  
 
----
+
 
 ## 4.3 Ejemplos
 
@@ -150,13 +150,12 @@ En este proyecto se implementan tres ejemplos en Python:
 - Piedra, papel o tijera  
 - Competencia de precios entre empresas  
 
----
+
 
 # 5. Implementación en Python
 
 El proyecto incluye la implementación de varios algoritmos en Python.
 
----
 
 ## 5.1 Algoritmo A*
 
@@ -166,7 +165,7 @@ El algoritmo fue implementado utilizando estructuras de datos como:
 - Listas  
 - Colas de prioridad (`heapq`)  
 
----
+
 
 ## 5.2 Visualización del grafo
 
@@ -175,11 +174,24 @@ Para representar el grafo se utilizaron las librerías:
 - NetworkX  
 - Matplotlib  
 
----
+
 
 # 6. Resultados
 
 Después de ejecutar el algoritmo A*, el programa encuentra la ruta óptima entre el nodo inicial y el nodo objetivo.
 
 Ejemplo:
+Ruta encontrada:
+A → B → E → F
+
+
+
+
+# 7. Conclusiones
+
+El algoritmo A* es una herramienta poderosa dentro de la inteligencia artificial para resolver problemas de búsqueda de caminos.
+
+Gracias al uso de heurísticas, el algoritmo puede reducir significativamente el número de nodos explorados y encontrar soluciones de manera más eficiente.
+
+Por otro lado, la teoría de juegos permite analizar cómo diferentes agentes toman decisiones estratégicas en situaciones de competencia o cooperación.
 
