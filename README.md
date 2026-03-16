@@ -1,20 +1,22 @@
 Proyecto de Inteligencia Artificial
+
 Algoritmo A*, Heur´ısticas y Teor´ıa de Juegos
+
 Anyela Katerine Renteria Cuama
 
-1. Introducci´on
-La Inteligencia Artificial utiliza diferentes algoritmos y modelos matem´aticos para resolver
-problemas complejos relacionados con la toma de decisiones, b´usqueda de soluciones ´optimas
-y an´alisis estrat´egico.
+1. Introduccion
+La Inteligencia Artificial utiliza diferentes algoritmos y modelos matematicos para resolver
+problemas complejos relacionados con la toma de decisiones, busqueda de soluciones optimas
+y analisis estrategico.
 En este proyecto se estudian tres conceptos fundamentales dentro de la inteligencia arti-
 ficial:
 Algoritmo A* (A Star)
-Heur´ısticas
-Teor´ıa de juegos
+Heurısticas
+Teorıa de juegos
 
-Primero se presenta la investigaci´on te´orica de cada concepto y posteriormente su im-
-plementaci´on en Python, permitiendo observar de manera pr´actica c´omo funcionan estos
-algoritmos en problemas de b´usqueda y toma de decisiones.
+Primero se presenta la investigacion teorica de cada concepto y posteriormente su im-
+plementacion en Python, permitiendo observar de manera practica como funcionan estos
+algoritmos en problemas de busqueda y toma de decisiones.
 El objetivo principal de este proyecto es comprender c´omo estos m´etodos pueden aplicarse
 en distintos contextos como navegaci´on, videojuegos, econom´ıa y sistemas inteligentes.
 
